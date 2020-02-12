@@ -37,7 +37,9 @@ header {
 
 }
 
-
+#hero img {
+    margin-left: 28%
+}
 
 #hero h1 {
 
