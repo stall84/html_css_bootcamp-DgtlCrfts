@@ -7,6 +7,7 @@ header {
 }
 
 #header-menu {
+    
     margin-top: 3px;
     width: 250px;
     
@@ -29,6 +30,7 @@ header {
 
 #big-pic {
 
+
     
     height: 100%;
     background-image: url("/images/atl.png");
@@ -37,12 +39,22 @@ header {
 
 }
 
+#hero {
+    width: 400px;
+    top: 20vh;
+    left: 33vw;
+    text-align: center;
+    position: absolute;
+}
+
 #hero img {
-    margin-left: 28%
+    /*margin-left: 28%*/
+    width: 150px;
 }
 
 #hero h1 {
 
+    font-size: 60px;
     color: white;
     font-family: Arial;
     font-weight: 200;
@@ -54,5 +66,5 @@ header {
     color: white;
     font-family: Arial;
     font-weight: 200;
-    color: white;
+    color: #8a93a3;
 }
