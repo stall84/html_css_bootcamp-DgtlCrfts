@@ -30,8 +30,6 @@ header {
 
 /* I DO NOT understand how to fully utilize absolute/relative positioning. I tried to relatively position the header element above and then absolutely position the hero id element/div below. It helped me center the div nicely but my header-menu completely dissapeared behind .. the background picture & no combo of relative/absolute would bring the header menu back to the front.*/
 #big-pic {
-
-
     
     height: 100%;
     background-image: url("/images/atl.png");
@@ -46,11 +44,12 @@ header {
     top: 20vh;
     left: 33vw;
     text-align: center;
-    /*position: absolute;*/
+    position: absolute;
 }
 
 #hero img {
-    /*margin-left: 28%*/
+    /* Why is the logo image becoming pixelated/distorted when I enlarge it to the similar size as the example?*/
+    /*margin-left: 28%*/ 
     width: 150px;
 }
 
@@ -70,3 +69,22 @@ header {
     font-weight: 200;
     color: #8a93a3;
 }
+
+#middle-section {
+    background-color: #f4f4f4;
+}
+
+/* A little confused as to the gap in between header and middle div sections .. I removed *most* of it by reducing margin-top of p below to 0vh*/
+
+#middle-section>p {
+    padding-top: 50px;
+    margin-top: 0vh;
+    margin-left: 33vw;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+#at-box {
+    margin-left: 15vw;
+}
+
