@@ -72,6 +72,8 @@ header {
 
 #middle-section {
     background-color: #f4f4f4;
+    height: 85vh;
+    width: 100%;
 }
 
 /* A little confused as to the gap in between header and middle div sections .. I removed *most* of it by reducing margin-top of p below to 0vh*/
@@ -85,6 +87,43 @@ header {
 }
 
 #at-box {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
     margin-left: 15vw;
 }
 
+#at-box>h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#hash-box {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 15vw;
+}
+
+#hash-box>h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 100;
+}
+/* moolah-box is slightly lower than the prior two boxes. I think that it might be being caused by the header-menu to the top of it, it's margins interfering somehow. not sure though*/
+#moolah-box {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 15vw;
+}
+
+#moolah-box>h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 100;
+}
